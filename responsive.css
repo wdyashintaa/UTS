@@ -1,0 +1,43 @@
+/* Untuk Tablets */
+/* Tambahkan breakpoint max-width: 1000px */
+@media (max-width: 1000px) {
+    /* Tambahkan CSS untuk lesson */
+    .lesson{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+    .lesson {
+        width: 100%;
+    }
+    footer {
+        text-align: center;
+    }
+    /* Gantikan width btn ke 100% */
+    .btn {
+        width: 100%;
+    }
+    .facebook {
+        margin-bottom: 10px;
+    }      
+    .top-wrapper {
+        text-align: left;
+    }  
+    .header-right {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+      }
